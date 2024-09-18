@@ -7,22 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- header section -->
-    <header>Weather App</header>
-
-    <!-- weather display section -->
-    <div id="weather-info">
-        <h3 id="location">Location: </h3>
-        <p id="temperature">Temperature: </p>
-        <p id="description">Weather: </p>
+    <div class="app-container">
+        <h1>Weather App</h1>
+        <input type="text" id="city" placeholder="Enter City">
+        <button id="search">Get Weather</button>
+        <div class="weather-data">
+            <h2 id="location"></h2>
+            <p id="temperature"></p>
+            <p id="description"></p>
+        </div>
     </div>
 
-    <!-- button to get weather -->
-    <button id="weather-result">Fetch Data</button>
-    
-    <!-- linking the Javascript to HTML -->
     <script src="script.js"></script>
-
-    
 </body>
 </html>
